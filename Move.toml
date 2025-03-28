@@ -1,0 +1,16 @@
+[package]
+name = "Educational-content-licensing-marketplace"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x3c37244c95ceb829785b923d5e5ad320c5391352a257a9a14ca72ed16f9621f0"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
